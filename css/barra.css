@@ -1,0 +1,57 @@
+/* Mantener el navbar fijo en la parte superior */
+.navbar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #393939; 
+    z-index: 1000; 
+}
+/* Letras Shulton Parking */
+.navbar .navbar-brand {
+	margin-right: auto;
+	font-family: 'Average', sans-serif; 
+	font-size: 2.5rem; 
+}
+
+.navbar .navbar-brand .shulton {
+	color: #ffffff; 
+}
+.navbar .navbar-brand .parking {
+	color: #36d330;
+	font-weight: bold; 
+}
+
+
+/* Alinea el contenido dentro del navbar */
+.navbar .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Alinea el logotipo a la izquierda */
+.navbar .navbar-brand {
+    margin-right: auto; 
+}
+
+/* Estilo para los enlaces de navegación */
+.navbar-nav .nav-link {
+	
+    color: #f0f0f0 !important;
+    font-size: 1.1rem; 
+    font-weight: bold; 
+}
+
+/* Efecto de hover para los enlaces */
+.navbar-nav .nav-link:hover {
+    color: #36d330 !important; 
+}
+
+/* Añadir margen superior al contenido principal para evitar que quede oculto detrás del navbar */
+body {
+    padding-top: 56px; 
+}
+.navbar-nav .nav-link i {
+	margin-right: 8px; /* Espacio entre el icono y el texto */
+}
